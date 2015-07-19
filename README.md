@@ -1,7 +1,7 @@
-POST Tester
-------------
+POST Receiver for Android Client
+--------------------------------
 
-Accepts POST requests to the url `localhost`, and sends a simple response `{message: "Message received!"}`
+Accepts POST requests sent to your computer's IP, and sends a simple response `{message: "Message received!"}`. For testing an Android client that sends POST requests.
 
 ### Setting Up the Server
 
@@ -20,6 +20,7 @@ After sending it, the Postman app should show the response `{message: "Message r
 ### Android Client
 
 Credit to [Sandy D](http://stackoverflow.com/a/31065964/1852456) and [Pankaj](http://www.journaldev.com/7148/java-httpurlconnection-example-to-send-http-getpost-requests)
+If running the app in an android emulator, you can simply use `10.0.2.2` as the url ([source](http://stackoverflow.com/a/5806384/1852456))
 
 ```java
 String POST_PARAMS = "param1=" + params[0] + "&param2=" + params[1];
