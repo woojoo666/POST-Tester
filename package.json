@@ -1,0 +1,17 @@
+{
+  "name": "post-tester",
+  "version": "0.0.0",
+  "description": "Simple feedback server to test POST requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Max Woo <maxwoo666@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "morgan": "^1.6.1"
+  }
+}
